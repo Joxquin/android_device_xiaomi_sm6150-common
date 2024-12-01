@@ -102,6 +102,7 @@ BOARD_KERNEL_CMDLINE := \
     androidboot.usbcontroller=a600000.dwc3 \
     service_locator.enable=1 \
     lpm_levels.sleep_disabled=1 \
+    kpti=off \
     loop.max_part=7
 
 # Enable set header version
