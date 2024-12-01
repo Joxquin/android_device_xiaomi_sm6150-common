@@ -103,6 +103,7 @@ BOARD_KERNEL_CMDLINE := \
     service_locator.enable=1 \
     lpm_levels.sleep_disabled=1 \
     kpti=off \
+    kasan=off \
     loop.max_part=7
 
 # Enable set header version
