@@ -401,3 +401,6 @@ PRODUCT_PACKAGES += \
 
 # XiaomiParts
 $(call inherit-product, device/xiaomi/sm6150-common/parts/parts.mk)
+
+# Keys
+-include vendor/lineage-priv/keys/keys.mk
